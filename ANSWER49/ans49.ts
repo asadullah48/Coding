@@ -1,3 +1,5 @@
+// Q 49
+// Function with rest parameter
 // Defines a function that accepts multiple hobbies as arguments
 function logHobbies(...hobbies: string[]) {
     // Loops through each hobby in the array
@@ -8,4 +10,4 @@ function logHobbies(...hobbies: string[]) {
 }
 
 // Calls the function with three hobbies
-logHobbies("reading", "coding", "cycling");
+logHobbies("reading", "coding", "to play cirket");
